@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import PromoNav from './components/PromoNav.vue';
 import NavBar from './components/NavBar.vue';
+import FooterNav from './components/FooterNav.vue';
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import NavBar from './components/NavBar.vue';
 
   <RouterView />
 </div>
+<FooterNav />
 </template>
 
