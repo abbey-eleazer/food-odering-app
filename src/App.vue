@@ -6,12 +6,14 @@ import FooterNav from './components/FooterNav.vue';
 </script>
 
 <template>
-  <div class="w-[79vw] mx-auto">
-  <PromoNav />
-  <NavBar />
+  <div>
+    <div class="w-[79vw] mx-auto">
+      <PromoNav />
+      <NavBar />
 
-  <RouterView />
-</div>
-<FooterNav />
+      <RouterView />
+    </div>
+    <FooterNav />
+  </div>
 </template>
 
