@@ -22,32 +22,33 @@
         </ul>
       </nav>
     </div>
-    <div class="">
-  <div class="bg-black/90 p-8 flex justify-between rounded-lg">
+    <div class=" flex items-center justify-center pb-24">
+  <div class="w-[82rem] h-[32rem] px-12 bg-black/90  flex justify-between rounded-lg">
     <!-- QUESTIONS  -->
-     <div class="flex items-center justify-center">
-      <ul class="text-center w-[70%]">
-        <li >
-            <router-link active-class="bg-orange-400 text-black" class=" hover:bg-orange-400 text-white py-2 px-8 rounded-full hover:text-black" to="">How does Order.UK work?</router-link>
+     <div class="flex items-center justify-center text-[1.rem]">
+      <ul class="text-center">
+        <li class="w-[25rem] hover:bg-orange-400 text-center rounded-full px-[1rem] py-4 hover:text-black">
+            <router-link class=" text-white" to="">How does Order.UK work?</router-link>
           </li>
-        <li >
-            <router-link class=" hover:bg-orange-400 text-white py-2 px-8 rounded-full hover:text-black" to="">What payment methods are accepted?</router-link>
+        <li class="w-[25rem] hover:bg-orange-400 text-center rounded-full px-[1rem] py-4 hover:text-black">
+            <router-link class=" text-white" to="">What payment methods are accepted?</router-link>
           </li>
-        <li >
-            <router-link class=" hover:bg-orange-400 text-white py-2 px-8 rounded-full hover:text-black" to="">Can I track my order in real-time?</router-link>
+        <li class="w-[25rem] hover:bg-orange-400 text-center rounded-full px-[3.5rem] py-4 hover:text-black" >
+            <router-link class="text-center text-white " to="">Can I track my order in real-time?</router-link>
           </li>
-        <li >
-            <router-link class=" hover:bg-orange-400 text-white py-2 px-8 rounded-full hover:text-black" to="">Are there any special discounts or promotions available?</router-link>
+        <li class="w-[25rem] hover:bg-orange-400 text-center rounded-full px-[3.5rem] py-4 hover:text-black" >
+            <router-link class=" text-white " to="">Are there any special discounts or promotions available?</router-link>
           </li>
-        <li >
-            <router-link class=" hover:bg-orange-400 text-white py-2 px-8 rounded-full hover:text-black" to="">Is Order.UK available in my area?</router-link>
-          </li>
+        <li class="w-[25rem] hover:bg-orange-400 text-center rounded-full px-[3.5rem] py-4 hover:text-black" >
+            <router-link class=" text-white " to="">Is Order.UK available in my area?</router-link>
+        </li>
       </ul>
      </div>
 
      <!-- CARDS -->
-      <div class="flex flex-col items-center justify-center">
-      <div class="flex gap-4">
+      
+      <div class="flex flex-col justify-center items-center pt-16 ">
+      <div class="flex items-center gap-4">
         <div class="w-[14rem] h-[17rem] rounded-xl bg-gray-200 flex flex-col items-center justify-center">
           <h3 class="font-bold pb-4 text-lg">Place an Order!</h3>
           <img src="../assets/icons/order-food 1.png" alt="icon">
@@ -70,8 +71,12 @@
           </div>
         </div>
       </div>
-      <p class="text-white text-center w-[60%] mt-12">Order.UK simplifies the food ordering process. Browse through our diverse menu, select your favorite dishes, and proceed to checkout. Your delicious meal will be on its way to your doorstep in no time!</p>
+
+      <!-- paragraph -->
+       <p class="w-[40rem] pt-8 text-white texxt-lg text-center">Order.UK simplifies the food ordering process. Browse through our diverse menu, select your favorite dishes, and proceed to checkout. Your delicious meal will be on its way to your doorstep in no time!</p>
       </div>
+      
+     
     </div>
   </div>
   </div>

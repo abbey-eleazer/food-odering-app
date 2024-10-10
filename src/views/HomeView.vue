@@ -6,6 +6,7 @@ import PopularRes from '@/components/PopularRes.vue';
 import DownloadApp from '@/components/DownloadApp.vue';
 import HomeGetstarted from '@/components/HomeGetstarted.vue';
 import KnowMore from '@/components/KnowMore.vue';
+import OrderSatats from '@/components/OrderSatats.vue';
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import KnowMore from '@/components/KnowMore.vue';
       <DownloadApp />
       <HomeGetstarted />
       <KnowMore />
+      <OrderSatats />
     </main>
   </div>
 </template>

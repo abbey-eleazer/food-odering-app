@@ -16,7 +16,7 @@
             <router-link class="hover:bg-orange-400 py-2 px-8 rounded-full hover:text-white" to="">Special Offers</router-link>
           </li>
           <li >
-            <router-link class="hover:bg-orange-400 py-2 px-8 rounded-full hover:text-white" to="">Restaurant</router-link>
+            <router-link active-class="bg-orange-400 py-2 px-8 text-white" class="hover:bg-orange-400 py-2 px-8 rounded-full hover:text-white" to="/restaurants">Restaurants</router-link>
           </li>
           <li >
             <router-link class="hover:bg-orange-400 py-2 px-8 rounded-full hover:text-white" to="">Track order</router-link>
